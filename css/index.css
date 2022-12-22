@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    font-size: 1.8rem;
+}
+.nav-item{
+    font-weight: 700;
+}
+.active-item{
+    font-weight: 900;
+    color: #ff6347;
+}
+nav img{
+    height: 3rem;
+}
+.intro-section{
+    display: flex;
+}
+.left-section{
+    width: 60%;
+    padding: 4.5rem;
+}
+.left-section h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.left-section h3 img{
+    height: 3rem;
+}
+.left-section h1{
+    font-size: 5.4rem;
+    font-weight: 900;
+}
+.sub-headline{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1.5rem 4rem;
+}
+.sub-headlines img{
+    background-color: #fe5e35;
+    margin: auto 0;
+    border-radius: 50%;
+    margin-right: 2.2rem;
+    padding: .5rem;
+    height: 2.5rem;
+}
+.text{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 3rem 0;
+    width: 85%;
+}
+.action-btn{
+    background-color: #fe5e35;
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    margin-right: 1.5rem;
+}
+.right-section{
+    width: 27vw;
+}
+.discount{
+    display: none;
+}
+.discount-content{
+    display: none;
+}
+.discount-content + img{
+    height: 60vh;
+}
+.dots{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: center;
+}
+.dot{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.yellow-dot{
+    background-color: #ffff00;
+}
+.tomato-dot{
+    background-color: #ff6347;
+}
+.black-dot{
+    background-color: #000;
+}
+.dots +button{
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 1080px) {
+    html{
+        font-size: 55%;
+    }
+    .left-section{
+        padding-right: 0rem;
+    }
+    .left-section h1{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 45%;
+    }
+    .intro-section{
+        flex-direction: column-reverse;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .right-section{
+        width: 100%;
+    }
+    .headphone-div img{
+        margin: 0 auto;
+        display: block;
+        height: 70vh;
+    }
+}
