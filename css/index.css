@@ -80,11 +80,29 @@ nav img{
 .right-section{
     width: 27vw;
 }
+.headphone-div{
+    position: relative;
+}
 .discount{
-    display: none;
+    height: 20vh;
+    position: absolute;
+    top: 35vh;
+    left: -10vh;
 }
 .discount-content{
-    display: none;
+    position: absolute;
+    color: #fff;
+    top: 40vh;
+    left: -5vh;
+}
+.discount-content h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.discount-content h1{
+    font-size: 3.5rem;
+    
 }
 .discount-content + img{
     height: 60vh;
@@ -139,7 +157,10 @@ nav img{
     .right-section{
         width: 100%;
     }
-    .headphone-div img{
+    .discount{
+
+    }
+    .headphone-div img:last-of-type{
         margin: 0 auto;
         display: block;
         height: 70vh;
