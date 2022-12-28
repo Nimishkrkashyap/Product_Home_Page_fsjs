@@ -148,6 +148,9 @@ nav img{
     html{
         font-size: 45%;
     }
+    .nav-items{
+        display: none;
+    }
     .intro-section{
         flex-direction: column-reverse;
     }
@@ -158,11 +161,43 @@ nav img{
         width: 100%;
     }
     .discount{
-
+        left: 20%;
+    }
+    .discount-content{
+        left: 24%;
     }
     .headphone-div img:last-of-type{
         margin: 0 auto;
         display: block;
         height: 70vh;
+    }
+    .left-section h1{
+        font-size: 4rem;
+    }
+    .text{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .discount{
+        left: 10%;
+        top: 30vh;
+    }
+    .discount-content{
+        left: 15%;
+        top: 35vh;
+    }
+    .headphone-div img:last-of-type{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .discount{
+        left: 5%;
+    }
+    .discount-content{
+        left: 12%;
     }
 }
